@@ -1,0 +1,66 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #000a1d;
+  color: #ffffff;
+  background-size: cover; 
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+.calculator {
+  background-image: url('assets/fondo5.jpg');
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+}
+
+.display {
+  font-size: 2em;
+  background-color: #fdfdfd;
+  color: #000000;
+  text-align: right;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  color: #ffffff;
+
+}
+
+button {
+  font-size: 1.5em;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url('assets/fondo6.jpg');
+  transition: background-color 0.3s ease;
+  color: #ffffff;
+
+}
+
+button:hover {
+  background-image: url('assets/fondo6.jpg');
+  color: #ffffff;
+}
+
+button:active {
+  background-image: url('assets/fondo6.jpg');
+  color: #ffffff;
+}
+
